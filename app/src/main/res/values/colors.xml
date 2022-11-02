@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+
+    <color name="primary">#1C2E46</color>
+    <color name="primary_dark">#142232</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="input_background">#ECECEC</color>
+    <color name="icon_background">#20FFFFFF</color>
+    <color name="error">#B00020</color>
+    <color name="dark_red">#712432</color>
+    <color name="received_message_background">#090016</color>
+
+    <color name="magentaLite">#FFEDF2</color>
+    <color name="magentaMedium1">#A66B7D</color>
+    <color name="magentaMedium2">#A8697C</color>
+    <color name="magentaDark">#6D3A2F</color>
+    <color name="chatTextColor0">#6E0625</color>
+    <color name="chatTextColor1">#CCA66B7D</color>
+    <color name="chatTextBoxColor0">#EFDEE3</color>
+</resources>

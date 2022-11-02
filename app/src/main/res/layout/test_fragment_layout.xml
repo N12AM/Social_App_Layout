@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/dummy_content">
+
+    <!--    <include layout="@layout/fragment_blank1"/>-->
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageCat"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_300sdp"
+        android:src="@mipmap/cat__3_"
+        >
+
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello world"
+        android:textSize="@dimen/_20sdp">
+
+    </TextView>
+
+<!--    <com.google.android.material.imageview.ShapeableImageView-->
+<!--        android:layout_width="@dimen/_300sdp"-->
+<!--        android:layout_height="@dimen/_300sdp"-->
+<!--        android:src="@drawable/cat__2_"/>-->
+</FrameLayout>
+
+
+
+</LinearLayout>

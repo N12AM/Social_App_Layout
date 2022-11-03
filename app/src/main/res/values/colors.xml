@@ -31,4 +31,7 @@
     <color name="chatTextColor0">#6E0625</color>
     <color name="chatTextColor1">#CCA66B7D</color>
     <color name="chatTextBoxColor0">#EFDEE3</color>
+
+
+    <color name="Lite1">#FFD9D9</color>
 </resources>

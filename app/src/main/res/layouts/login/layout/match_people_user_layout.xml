@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_450sdp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <FrameLayout
+            android:layout_width="@dimen/_170sdp"
+            android:layout_height="@dimen/_170sdp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/match_people_chip_0"
+            android:clipChildren="false"
+            android:paddingVertical="@dimen/_30sdp"
+            android:rotation="-4"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.013"
+
+            android:layout_gravity="center"
+            android:translationY="-85dp"
+            android:translationX="-85dp">
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="@dimen/_170sdp"
+            android:layout_height="@dimen/_170sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/match_people_chip_1"
+            android:clipChildren="false"
+            android:paddingVertical="@dimen/_30sdp"
+            android:rotation="4"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.847"
+
+            android:layout_gravity="center"
+            android:translationY="85dp"
+            android:translationX="85dp">
+
+
+        </FrameLayout>
+
+
+    </FrameLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingVertical="@dimen/_30sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.863">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Is this a \nQubul?"
+            android:textColor="@color/chatTextColor0"
+            android:textSize="@dimen/_28sdp">
+
+        </TextView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_50sdp">
+
+            <FrameLayout
+                android:id="@+id/frameLayout7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_text_box_1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:layout_width="@dimen/_110sdp"
+                    android:layout_height="@dimen/_42sdp"
+                    android:gravity="center"
+                    android:text="Keep Looking"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15sdp">
+
+                </TextView>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_text_box_1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:layout_width="@dimen/_110sdp"
+                    android:layout_height="@dimen/_42sdp"
+                    android:gravity="center"
+                    android:text="Say Hello!"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15sdp">
+
+                </TextView>
+            </FrameLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

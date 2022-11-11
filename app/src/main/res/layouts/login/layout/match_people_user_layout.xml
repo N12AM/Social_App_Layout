@@ -77,7 +77,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:gravity="center"
-            android:text="Is this a \nQubul?"
+            android:text="Is this a \nQobul?"
             android:textColor="@color/chatTextColor0"
             android:textSize="@dimen/_28sdp">
 

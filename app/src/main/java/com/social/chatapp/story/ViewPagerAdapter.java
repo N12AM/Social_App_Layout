@@ -37,11 +37,20 @@ public class ViewPagerAdapter extends PagerAdapter implements View.OnClickListen
 //        Listeners listeners = new Listeners();
 //        listeners.SetListeners0(view.getContext());
 
+//    check which button is clicked
+        switch (view.getId()) {
+            case com.social.chatapp.R.id.enterChatButton:
+                Log.d("button", "listeners working ");
+                Intent intent = new Intent(view.getContext(), ChatHomeView.class);
+                view.getContext().startActivity(intent);
+                break;
+        }
 
 
-        Intent intent = new Intent(view.getContext(), ChatHomeView.class);
-        view.getContext().startActivity(intent);
-        Log.d("view tag", "onClick: " + view.getId());
+
+//        Intent intent = new Intent(view.getContext(), ChatHomeView.class);
+//        view.getContext().startActivity(intent);
+//        Log.d("view tag", "onClick: " + view.getId());
     }
 
     public String[] slide_headings = {

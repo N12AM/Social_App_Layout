@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.social.chatapp.chat.ChatHomeView;
 import com.social.chatapp.databinding.VerticalUserView0Binding;
+import com.social.chatapp.userprofile.ComponentTags;
 
 public class Listeners extends AppCompatActivity {
     VerticalUserView0Binding binding0;
@@ -19,6 +20,7 @@ public class Listeners extends AppCompatActivity {
 //        binding0 = inflater.inflate(getLayoutInflater());
         binding0 = VerticalUserView0Binding.inflate(inflater.cloneInContext(getApplicationContext()));
         setContentView(binding0.getRoot());
+
     }
 
 
